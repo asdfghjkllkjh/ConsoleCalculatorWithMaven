@@ -1,6 +1,7 @@
 package ch.noah;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertThat;
 import static org.junit.Assert.assertTrue;
 
 import org.junit.BeforeClass;
@@ -18,7 +19,12 @@ public class CalculatorTest {
     }
 
     @Test
-    public void shouldAddTwoNumbers() {
+    public void shouldAddTwoNumbers () {
         assertEquals(15, calculator.summe(5,10));
+    }
+
+    @Test
+    public void shouldSubtractTwoNumbers() {
+        assertEquals(5, calculator.subtraktion(10, 5));
     }
 }
