@@ -4,7 +4,6 @@
     <list default="true" id="003894bb-59b2-4707-b721-fe0d75a93c51" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ch/noah/Calculator.java" afterPath="$PROJECT_DIR$/src/main/java/ch/noah/Calculator.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ch/noah/CalculatorTest.java" afterPath="$PROJECT_DIR$/src/test/java/ch/noah/CalculatorTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -56,13 +55,13 @@
       <file leaf-file-name="Calculator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ch/noah/Calculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+            <state relative-caret-position="242">
+              <caret line="15" column="30" lean-forward="false" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
               <folding>
                 <element signature="e#216#217#0" expanded="true" />
                 <element signature="e#258#259#0" expanded="true" />
                 <element signature="e#313#314#0" expanded="true" />
-                <element signature="e#337#338#0" expanded="true" />
+                <element signature="e#351#352#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -71,8 +70,8 @@
       <file leaf-file-name="CalculatorTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ch/noah/CalculatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state relative-caret-position="494">
+              <caret line="27" column="39" lean-forward="false" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
               <folding>
                 <element signature="e#371#372#0" expanded="true" />
                 <element signature="e#416#417#0" expanded="true" />
@@ -120,8 +119,8 @@
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/ch/noah/App.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ch/noah/Calculator.java" />
         <option value="$PROJECT_DIR$/src/test/java/ch/noah/CalculatorTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ch/noah/Calculator.java" />
       </list>
     </option>
   </component>
@@ -573,9 +572,12 @@
     <history-entry file="CalculatorTest_shouldSubtractTwoNumbers - 2018.11.27 at 15h 25m 06s.xml">
       <configuration name="CalculatorTest.shouldSubtractTwoNumbers" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CalculatorTest_shouldSubtractTwoNumbers - 2018.11.27 at 15h 26m 48s.xml">
+      <configuration name="CalculatorTest.shouldSubtractTwoNumbers" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2300000" />
+    <option name="totallyTimeSpent" value="2398000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
@@ -679,7 +681,7 @@
             <element signature="e#216#217#0" expanded="true" />
             <element signature="e#258#259#0" expanded="true" />
             <element signature="e#313#314#0" expanded="true" />
-            <element signature="e#337#338#0" expanded="true" />
+            <element signature="e#351#352#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -716,7 +718,7 @@
             <element signature="e#216#217#0" expanded="true" />
             <element signature="e#258#259#0" expanded="true" />
             <element signature="e#313#314#0" expanded="true" />
-            <element signature="e#337#338#0" expanded="true" />
+            <element signature="e#351#352#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -774,7 +776,7 @@
             <element signature="e#216#217#0" expanded="true" />
             <element signature="e#258#259#0" expanded="true" />
             <element signature="e#313#314#0" expanded="true" />
-            <element signature="e#337#338#0" expanded="true" />
+            <element signature="e#351#352#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -803,7 +805,7 @@
             <element signature="e#216#217#0" expanded="true" />
             <element signature="e#258#259#0" expanded="true" />
             <element signature="e#313#314#0" expanded="true" />
-            <element signature="e#337#338#0" expanded="true" />
+            <element signature="e#351#352#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -832,19 +834,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/noah/Calculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-          <folding>
-            <element signature="e#216#217#0" expanded="true" />
-            <element signature="e#258#259#0" expanded="true" />
-            <element signature="e#313#314#0" expanded="true" />
-            <element signature="e#337#338#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ch/noah/App.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="263">
@@ -853,10 +842,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/noah/Calculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="15" column="30" lean-forward="false" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+          <folding>
+            <element signature="e#216#217#0" expanded="true" />
+            <element signature="e#258#259#0" expanded="true" />
+            <element signature="e#313#314#0" expanded="true" />
+            <element signature="e#351#352#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ch/noah/CalculatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        <state relative-caret-position="494">
+          <caret line="27" column="39" lean-forward="false" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
           <folding>
             <element signature="e#371#372#0" expanded="true" />
             <element signature="e#416#417#0" expanded="true" />
