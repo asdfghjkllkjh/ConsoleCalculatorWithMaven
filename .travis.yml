@@ -8,3 +8,4 @@ deploy:
   file: "/home/travis/.m2/repository/ch/noah/CalculatorWithMaven/1.0-SNAPSHOT/CalculatorWithMaven-1.0-SNAPSHOT.jar"
   on:
     repo: asdfghjkllkjh/ConsoleCalculatorWithMaven
+    tags: true
