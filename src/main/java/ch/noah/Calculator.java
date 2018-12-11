@@ -8,11 +8,15 @@ package ch.noah;
 
 public class Calculator {
 
-    public int summe(int summand1, int summand2) {
+    int summe(int summand1, int summand2) {
         return summand1 + summand2;
     }
 
-    public int subtraktion(int value1, int value2) {
+    public int subtract(int value1, int value2) {
+        return subtractPrivate(value1, value2);
+    }
+
+    private int subtractPrivate(int value1, int value2) {
         return value1 - value2;
     }
 
