@@ -129,4 +129,14 @@ public class CalculatorTest {
         assertEquals(1, calculator.division(Integer.MIN_VALUE, Integer.MIN_VALUE));
     }
 
+    @Test(expected = ArithmeticException.class)
+    public void shouldThrowWhenDividingByZero() {
+        calculator.division(1, 0);
+    }
+
+    @Test(expected = ArithmeticException.class)
+    public void shouldThrowWhenDividingNegativeNumberByZero() {
+        calculator.division(-11, 0);
+    }
+
 }
