@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="003894bb-59b2-4707-b721-fe0d75a93c51" name="Default" comment="SetUp travis test">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CalculatorWithMaven.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CalculatorWithMaven.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ch/noah/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/noah/Calculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ch/noah/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ch/noah/CalculatorTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -27,26 +31,30 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="6" />
-          <entry key="java" value="640" />
+          <entry key="java" value="982" />
           <entry key="txt" value="44" />
+          <entry key="xml" value="1" />
           <entry key="yml" value="60" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Git file" value="6" />
-          <entry key="JAVA" value="640" />
+          <entry key="JAVA" value="982" />
           <entry key="PLAIN_TEXT" value="44" />
+          <entry key="XML" value="1" />
           <entry key="YAML" value="60" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="java" value="1" />
           <entry key="yml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="JAVA" value="1" />
           <entry key="YAML" value="1" />
         </counts>
       </usages-collector>
@@ -63,8 +71,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+            <state relative-caret-position="667">
+              <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -90,13 +98,15 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ch/noah/Calculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="10" column="7" selection-start-line="10" selection-end-line="11" selection-end-column="8" />
+            <state relative-caret-position="483">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
               <folding>
                 <element signature="e#208#209#0" expanded="true" />
                 <element signature="e#250#251#0" expanded="true" />
                 <element signature="e#301#302#0" expanded="true" />
                 <element signature="e#355#356#0" expanded="true" />
+                <element signature="e#506#507#0" expanded="true" />
+                <element signature="e#544#545#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -105,8 +115,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ch/noah/CalculatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="569">
-              <caret line="132" column="33" lean-forward="true" selection-start-line="132" selection-start-column="33" selection-end-line="132" selection-end-column="33" />
+            <state relative-caret-position="678">
+              <caret line="158" column="67" lean-forward="true" selection-start-line="158" selection-start-column="67" selection-end-line="158" selection-end-column="67" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#284#285#0" expanded="true" />
@@ -157,6 +167,10 @@
                 <element signature="e#3332#3333#0" expanded="true" />
                 <element signature="e#3431#3432#0" expanded="true" />
                 <element signature="e#3472#3473#0" expanded="true" />
+                <element signature="e#3571#3572#0" expanded="true" />
+                <element signature="e#3612#3613#0" expanded="true" />
+                <element signature="e#4082#4083#0" expanded="true" />
+                <element signature="e#4144#4145#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -166,7 +180,7 @@
         <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="253">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -203,8 +217,10 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/ch/noah/App.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/main/java/ch/noah/Calculator.java" />
         <option value="$PROJECT_DIR$/.travis.yml" />
+        <option value="$PROJECT_DIR$/src/main/java/ch/noah/NoNumberException.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/ch/noah/Calculator.java" />
         <option value="$PROJECT_DIR$/src/test/java/ch/noah/CalculatorTest.java" />
       </list>
     </option>
@@ -399,7 +415,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544604845210" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544605444302" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="C:/Program Files/nodejs/node" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -418,7 +434,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CalculatorTest.shouldThrowWhenDividingNegativeNumberByZero">
+  <component name="RunManager" selected="JUnit.CalculatorTest.shouldThrowExceptionWhenStringArePassed">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -463,6 +479,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CalculatorTest.shouldThrowExceptionWhenStringArePassed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CalculatorWithMaven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch.noah.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ch.noah" />
+      <option name="MAIN_CLASS_NAME" value="ch.noah.CalculatorTest" />
+      <option name="METHOD_NAME" value="shouldThrowExceptionWhenStringArePassed" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CalculatorTest.shouldThrowWhenDividingByZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CalculatorWithMaven" />
       <extension name="coverage">
@@ -497,23 +530,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTest.shouldUnderflowWhenValueToSmall" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CalculatorWithMaven" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ch.noah.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ch.noah" />
-      <option name="MAIN_CLASS_NAME" value="ch.noah.CalculatorTest" />
-      <option name="METHOD_NAME" value="shouldUnderflowWhenValueToSmall" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -539,18 +555,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.CalculatorTest" />
-      <item itemvalue="JUnit.CalculatorTest.shouldUnderflowWhenValueToSmall" />
       <item itemvalue="JUnit.CalculatorTest.shouldRoundDownWards" />
       <item itemvalue="JUnit.CalculatorTest.shouldThrowWhenDividingByZero" />
       <item itemvalue="JUnit.CalculatorTest.shouldThrowWhenDividingNegativeNumberByZero" />
+      <item itemvalue="JUnit.CalculatorTest.shouldThrowExceptionWhenStringArePassed" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CalculatorTest.shouldThrowExceptionWhenStringArePassed" />
         <item itemvalue="JUnit.CalculatorTest.shouldThrowWhenDividingNegativeNumberByZero" />
         <item itemvalue="JUnit.CalculatorTest.shouldThrowWhenDividingByZero" />
         <item itemvalue="JUnit.CalculatorTest" />
         <item itemvalue="JUnit.CalculatorTest.shouldRoundDownWards" />
-        <item itemvalue="JUnit.CalculatorTest.shouldUnderflowWhenValueToSmall" />
       </list>
     </recent_temporary>
   </component>
@@ -568,7 +584,7 @@
       <workItem from="1543921590840" duration="2423000" />
       <workItem from="1543995312072" duration="1000" />
       <workItem from="1544523214491" duration="359000" />
-      <workItem from="1544604439422" duration="363000" />
+      <workItem from="1544604439422" duration="1056000" />
     </task>
     <task id="LOCAL-00001" summary="Implement division">
       <created>1543921937359</created>
@@ -581,21 +597,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CalculatorTest - 2018.11.27 at 15h 07m 10s.xml">
-      <configuration name="CalculatorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculatorTest - 2018.11.27 at 15h 07m 55s.xml">
-      <configuration name="CalculatorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculatorTest_shouldAddTwoNumbers - 2018.11.27 at 15h 06m 50s.xml">
-      <configuration name="CalculatorTest.shouldAddTwoNumbers" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculatorTest_shouldSubtractTwoNumbers - 2018.11.27 at 15h 25m 06s.xml">
-      <configuration name="CalculatorTest.shouldSubtractTwoNumbers" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculatorTest_shouldSubtractTwoNumbers - 2018.11.27 at 15h 26m 48s.xml">
-      <configuration name="CalculatorTest.shouldSubtractTwoNumbers" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CalculatorTest - 2018.12.04 at 12h 26m 17s.xml">
       <configuration name="CalculatorTest" configurationId="JUnit" />
     </history-entry>
@@ -611,9 +612,24 @@
     <history-entry file="CalculatorTest_shouldThrowWhenDividingByZero - 2018.12.12 at 09h 53m 56s.xml">
       <configuration name="CalculatorTest.shouldThrowWhenDividingByZero" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CalculatorTest_shouldThrowWhenDividingByZero - 2018.12.12 at 09h 54m 07s.xml">
+      <configuration name="CalculatorTest.shouldThrowWhenDividingByZero" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorTest_shouldThrowWhenDividingNegativeNumberByZero - 2018.12.12 at 09h 54m 42s.xml">
+      <configuration name="CalculatorTest.shouldThrowWhenDividingNegativeNumberByZero" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorTest_shouldThrowExceptionWhenStringArePassed - 2018.12.12 at 10h 00m 36s.xml">
+      <configuration name="CalculatorTest.shouldThrowExceptionWhenStringArePassed" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorTest_shouldThrowExceptionWhenStringArePassed - 2018.12.12 at 10h 03m 36s.xml">
+      <configuration name="CalculatorTest.shouldThrowExceptionWhenStringArePassed" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorTest_shouldThrowExceptionWhenStringArePassed - 2018.12.12 at 10h 04m 06s.xml">
+      <configuration name="CalculatorTest.shouldThrowExceptionWhenStringArePassed" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8117000" />
+    <option name="totallyTimeSpent" value="8810000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-2560" y="-699" width="2560" height="1440" extended-state="0" />
@@ -697,13 +713,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -718,30 +727,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/noah/NoNumberException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ch/noah/Calculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="10" column="7" selection-start-line="10" selection-end-line="11" selection-end-column="8" />
+        <state relative-caret-position="483">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
           <folding>
             <element signature="e#208#209#0" expanded="true" />
             <element signature="e#250#251#0" expanded="true" />
             <element signature="e#301#302#0" expanded="true" />
             <element signature="e#355#356#0" expanded="true" />
+            <element signature="e#506#507#0" expanded="true" />
+            <element signature="e#544#545#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ch/noah/CalculatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="569">
-          <caret line="132" column="33" lean-forward="true" selection-start-line="132" selection-start-column="33" selection-end-line="132" selection-end-column="33" />
+        <state relative-caret-position="678">
+          <caret line="158" column="67" lean-forward="true" selection-start-line="158" selection-start-column="67" selection-end-line="158" selection-end-column="67" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#284#285#0" expanded="true" />
@@ -792,6 +817,10 @@
             <element signature="e#3332#3333#0" expanded="true" />
             <element signature="e#3431#3432#0" expanded="true" />
             <element signature="e#3472#3473#0" expanded="true" />
+            <element signature="e#3571#3572#0" expanded="true" />
+            <element signature="e#3612#3613#0" expanded="true" />
+            <element signature="e#4082#4083#0" expanded="true" />
+            <element signature="e#4144#4145#0" expanded="true" />
           </folding>
         </state>
       </provider>
