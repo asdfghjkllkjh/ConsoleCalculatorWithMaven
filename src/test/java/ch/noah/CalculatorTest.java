@@ -1,5 +1,7 @@
 package ch.noah;
 
+import static org.assertj.core.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThatThrownBy;
 import static org.junit.Assert.assertEquals;
 
 import org.junit.BeforeClass;
@@ -60,6 +62,7 @@ public class CalculatorTest {
     public void shouldSubtractTwoNumbers() {
         assertEquals(5, calculator.subtract(10, 5));
     }
+
     @Test
     public void shouldSubtractTwoNegativeNumbers() {
         assertEquals(-5, calculator.subtract(-10, -5));
@@ -69,22 +72,27 @@ public class CalculatorTest {
     public void shouldSubtractOneNegativeNumber() {
         assertEquals(5, calculator.subtract(10, 5));
     }
+
     @Test
     public void shouldSubtractTwoPositiveNumbers() {
         assertEquals(9, calculator.subtract(19, 10));
     }
+
     @Test
     public void shouldSubtractPositiveNumberByZero() {
         assertEquals(10, calculator.subtract(10, 0));
     }
+
     @Test
     public void shouldSubtractNegativeNumberByZero() {
         assertEquals(-10, calculator.subtract(-10, 0));
     }
+
     @Test
     public void shouldSubtractZeroByNegativeNumber() {
         assertEquals(10, calculator.subtract(0, -10));
     }
+
     @Test
     public void shouldSubtractZeroByPositiveNumber() {
         assertEquals(-10, calculator.subtract(0, 10));
@@ -99,6 +107,7 @@ public class CalculatorTest {
     public void shouldDivideTwoNegativeNumbers() {
         assertEquals(2, calculator.division(-4, -2));
     }
+
     @Test
     public void shouldDivideOneNumber() {
         assertEquals(-2, calculator.division(-4, 2));
@@ -137,6 +146,17 @@ public class CalculatorTest {
     @Test(expected = ArithmeticException.class)
     public void shouldThrowWhenDividingNegativeNumberByZero() {
         calculator.division(-11, 0);
+    }
+
+    @Test
+    public void shouldThrowExceptionWhenStringArePassed() {
+        assertThatThrownBy(() -> calculator.multiplication("as", "1")).isInstanceOf(NumberFormatException.class)
+                .hasMessageContaining("For input string: \"as\"");
+    }
+
+    @Test
+    public void shouldMultiplyWhenNumbersArePassed() {
+        assertThat(calculator.multiplication("2", "3")).isEqualTo(6);
     }
 
 }

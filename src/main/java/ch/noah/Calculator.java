@@ -6,6 +6,8 @@
 
 package ch.noah;
 
+import static java.lang.Integer.valueOf;
+
 public class Calculator {
 
     int summe(int summand1, int summand2) {
@@ -22,5 +24,12 @@ public class Calculator {
 
     protected int division(int value1, int value2) {
         return value1 / value2;
+    }
+
+    public int multiplication (String value1, String value2) {
+        int intValue1 = valueOf(value1);
+        int intValue2 = valueOf(value2);
+
+        return intValue1 * intValue2;
     }
 }
